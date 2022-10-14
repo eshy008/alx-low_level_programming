@@ -5,11 +5,9 @@
 
 #include <stdio.h>
 
-/*
- * main - Prints "Programming is like building a multilingual
- *		  puzzle, followed by a new line.
- *
- * Return: always 0;
+/**
+ * main - Prints "Serves as the main entry point of the program.
+ * Return: By default returns zero if no zeros or non zero value.
  */
 int main(void)
 {
