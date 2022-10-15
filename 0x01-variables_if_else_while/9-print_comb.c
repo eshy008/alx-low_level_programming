@@ -1,20 +1,26 @@
 #include <stdio.h>
 /**
  * main - main block
- * Description: Print all numbers of base64 in lowercase.
- * You can only use `putchar`, and only 3 times.
+ * Description: Print all possible combinations fo single-digit numbers.
+ * Numbers must be separated by commas and a space.
+ * You can only use `putchar` to print to console
+ * You can only use `putchar` up to four times.
+ * You are not allowed to use any variable of type `char`.
  * Return: 0
  */
 int main(void)
 {
-	int a;
-	for (a = 0; a < 10; a++)
+	int i = 0;
+
+	while (i < 10)
 	{
-		putchar(a + '0');
-	}
-	for (a = 'a'; a <= 'f'; a++)
-	{
-		putchar(a);
+		putchar(i + '0');
+		if (i < 9)
+		{
+			putchar(',');
+			putchar(' ');										
+		}
+		i++
 	}
 	putchar('\n');
 
