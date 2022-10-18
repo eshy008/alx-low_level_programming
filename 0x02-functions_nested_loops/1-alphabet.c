@@ -1,12 +1,14 @@
 #include "main.h"
 
 /**
- * main - prints alphabeths in lower case
+ * print_alphabet - entry point
+ *
+ * Description: Prints the alphabet with _putchar
  *
  * Return: void
  */
 
-void print_alphabet(void);
+void print_alphabet(void)
 {
 	char c;
 
